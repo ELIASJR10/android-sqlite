@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editRa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/hintRa"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/hintNome"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/hintCurso"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lblAdd" />
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lblPesquisar" />
+
+        <Button
+            android:id="@+id/btnModify"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lblAlterar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lblExcluir" />
+
+        <Button
+            android:id="@+id/btnViewAll"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lblVisualisarTodos" />
+
+        <Button
+            android:id="@+id/btnShowInfo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lblInfo" />
+
+    </LinearLayout>
+
+</LinearLayout>

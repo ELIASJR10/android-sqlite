@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidSQLiteExemplo</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblRa">RA:</string>
+    <string name="lblNome">Nome:</string>
+    <string name="lblCurso">Curso:</string>
+    <string name="hintRa">...seu RA</string>
+    <string name="hintNome">...seu nome</string>
+    <string name="hintCurso">...seu curso</string>
+    <string name="lblAdd">Novo</string>
+    <string name="lblAlterar">Altera</string>
+    <string name="lblPesquisar">Busca</string>
+    <string name="lblVisualisarTodos">Todos</string>
+    <string name="lblExcluir">Exclui</string>
+    <string name="lblInfo">Info</string>
+
+</resources>
